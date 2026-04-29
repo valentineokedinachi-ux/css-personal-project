@@ -198,13 +198,17 @@ section {
 #projects h2{
     text-align: center;
     margin-bottom: 20px;
-    font-size: 3rem;
+    font-size: 3.5rem;
+    color: white;
 }
 .project {
-    background: #124c44;
-    color: wheat;
+    background: #105249;
+    color: rgb(183, 134, 44);
     border-radius: 10px;
     padding: 15px;
+}
+.project p{
+margin-bottom: 20px;
 }
 
 
@@ -213,12 +217,22 @@ section {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+.projects-container h3{
+    color: rgb(4, 154, 64);
+    font-weight: 900;
+    font-size: larger;
+}
 
 
 .project img{
     width: 100%;
     height: auto;
     display: block;
+    transition: 1.5s;
+}
+
+.project img:hover{
+    transform: scale(1.05);
 }
 
 /* CONTACT */
@@ -289,7 +303,7 @@ footer {
         grid-template-columns: 1fr;
     }
     h1{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 }
 
