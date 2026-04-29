@@ -73,8 +73,8 @@ nav a:hover{
 }
 
 #home div{
-    width: 600px;
-    height: 600px;
+    width: 100%;
+    height: auto;
 }
 #home div > img {
 width: 100%;
@@ -113,20 +113,20 @@ section {
 .about-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    gap: 20px;
     align-items: center;
-    margin: 50px auto;
-    padding: 20px;
+    margin: 20px auto;
+    padding: 10px;
 }
 
 .about-image{
-    width: 350px;
+    width: auto;
     height: auto;
 }
 
 .about-image img{
     width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .about-text h2{
@@ -287,6 +287,9 @@ footer {
     .skills-container{
         grid-template-columns: 1fr;
     }
+    h1{
+        font-size: 1.5rem;
+    }
 }
 
 @media(min-width:768px) {
@@ -316,5 +319,6 @@ footer {
 
     .header ul{
         flex-direction: column;
+        gap: 2px;
     }
  } 
