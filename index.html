@@ -1,160 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valentine-Portfolio</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valentine Portfolio</title>
+
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
 <body>
 
-    <!-- NAVIGATION -->
-    <header>
-        <nav class="header">
-            <h2 class="logo">🖤Valentine</h2>
-            <ul>
-                <li><a href="#home"><i class="fa-regular fa-house"></i>Home</a></li>
+<!-- NAVIGATION (CSS ONLY HAMBURGER) -->
+<header>
+    <nav class="navbar">
 
-                <li><a href="#about"><i class="fa-solid fa-circle-info"></i>About</a></li>
+        <h2 class="logo">Valentine</h2>
 
-                <li><a href="#skills"><i class="fa-brands fa-wirsindhandwerk"></i>Skills</a></li>
-                <li><a href="#projects"><i class="fa-brands fa-r-project"></i>Projects</a></li>
-                <li><a href="#contact"><i class="fa-solid fa-envelope"></i>Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+        <!-- checkbox trick (no JAVASCRIPT USED) -->
+        <input type="checkbox" id="menu-toggle">
 
-    <!-- HERO -->
-    <section id="home">
-        <h1>Hi, I'm Okedinachi Valentine</h1>
-        <p>Aspiring Web Developer, Crafting clean and responsive designs</p>
+        <label for="menu-toggle" class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+        </label>
 
-        <div>
-        <img src="./images/My Image for personal project.png" alt="Image of Valentine">
-        <a href="#projects">View my projects</a>
-        </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section id="about">
-        <div class="about-container">
-            <div class="about-image">
-                <img src="./images/portfolio image.jpg" alt="">
-            </div>
-
-           <article class="about-text">
-              <h2>About Me</h2>
-              <p>
-              My name is Okedinachi Valentine, and I am a web development student of Turing Tech Academy with a strong interest in technology and problem-solving. I am focused on building practical skills that will help me grow in tech industry.
-              </p>
-
-              <p>
-              I have always been curious about how websites work and how digital platforms are created. This curiosity led me to explore web development where I am currently learning HTML, CSS, and version control while working on personal projects.
-              </p>
-
-              <p>
-              I chose to learn web development because I want to build real-world solutions and develop skills that   can make me independent. I am motivated by growth, consistency, and the desire to master web development and become skilled like my trainers, maybe even better.
-              </p>
-           </article>
-        </div>
-
-    </section>
-
-    <!-- SKILLS -->
-    <section id="skills">
-        <h2>My Skills</h2>
-        <p>
-            These are the core languages and frameworks I use to build responsive and modern websites
-        </p>
-        <div class="skills-container">
-            <div  class="skill"><i class="fa-brands fa-html5"></i>HTML</div>
-
-            <div class="skill"><i class="fa-brands fa-css"></i>CSS</div>
-
-            <div class="skill"><i class="fa-solid fa-paintbrush"></i>Tailwind</div>
-
-            <div class="skill"><i class="fa-brands fa-github"></i>Git and Github</div>
-        </div>
-
-        <div class="box">
-            <h3>Tools I Use</h3>
-            <p>Development tools and platforms that help me learn, write, test and manage my projects efficiently</p>
-            <ol>
-                <li>VS Code</li>
-                <li>Google Chrome DevTools</li>
-                <li>Git and Github</li>
-                <li>Git Bash/Terminal</li>
-                <li>Live Server (VS Code extension) </li>
-                <li>W3Schools (Learning Reference) </li>
-                <li>Discord (Developer Communities & Collaboration)</li>
-            </ol>
-        </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section id="projects">
-        <h2>My Projects</h2>
-
-     <div class="projects-container">
-
-        <div class="project">
-            <h3>Tech company Website</h3>
-            <p>A modern tech company website built with clean design, responsive layout and user-friendly navigation</p>
-            <img src="./images/tech example.jpg" alt="tech company website">
-        </div>
-
-        <div class="project">
-            <h3>Travel Website</h3>
-            <p>Coming soon...</p>
-            <p>A modern website designed to help users especially tourists explore destinations, discover travel ideas, and plan seemless trips with an intuitive and visually engaging interface in Nigeria. Currently in development</p>
-            <img src="./images/travel website image.jpg" alt="travel">
-        </div>
-
-        <div class="project">
-            <h3>Restaurant Website</h3>
-            <p>In progress...</p>
-            <p>A classic traditional restaurant website currently in progress, designed to showcase authentic Nigerian delicacies. It focuses on rich food presentation, cultural storytelling, and an engaging user experience that highlights traditional cousine in a clean and responsive layout</p>
-            <img src="./images/WhatsApp Image 2026-04-29 at 12.35.31 AM.jpeg" alt="restaurant website">
-        </div>
-     </div>
-    </section>
-
-
-    <!-- CONTACT -->
-    <section id="contact">
-
-        <h2><i class="fa-solid fa-phone"></i>Get in Touch</h2>
-        <p>Feel free to reach out if you have any project, idea or collaboration in mind</p>
-
-       <div class="contact-container">
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required rows="5"></textarea>
-            <button type="submit">Send</button>
-        </form>
-
-        <div class="contact-info">
-            <h3>Hit Me Up On....</h3>
-            <p>Email: valentineokedinachi@gmail.com</p>
-
-        <ul>
-              <li><a href="https://www.linkedin.com/in/okedinachi-valentine-2b42643aa?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fa-brands fa-linkedin"></i>Linkedin</a></li>
-              
-              <li><a href="https://www.github.com/valentineokedinachi-ux"><i class="fa-brands fa-github"></i>Github</a></li>
-              <li><a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
-              <li><a href="https://wa.me/2348069160477"><i class="fa-brands fa-whatsapp"></i>Watsapp</a></li>
-              <li><a href="https://www.tiktok.com/@bossy.val"><i class="fa-brands fa-tiktok"></i>Tiktok</a></li>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-        </div>
-    </section>
-    
 
-    <!-- FOOTER -->
-    <footer>
-        <p>Okedinachi Valentine</p>
-        <p>&copy; 2026 Valentine. All rights reserved.</p>
-    </footer>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Hi, I'm Okedinachi Valentine</h1>
+        <p>Frontend Developer • UI Designer • tech enthusiast</p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn outline">Contact Me</a>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT ME. NOTHING TOO DETAILED, JUST BASIC INFO -->
+<section id="about">
+    <h2>About Me</h2>
+<p>
+My name is Okedinachi Valentine Ekpereamaka. I’m someone who is still growing and learning through life at my own pace. I try not to rush the process, but instead focus on becoming better bit by bit in everything I do. As a frontend developer and UI designer, I’m passionate about creating things that are not only functional but also visually appealing. I love the idea of making technology more accessible and enjoyable for people through design and development.
+</p>
+
+<p>
+Outside of anything academic or technical, I have simple interests that shape how I relax and think. I enjoy watching horror movies, playing video games, listening to music, and taking quiet walks or just strolling around. I also appreciate nature a lot — there’s something calming about just being outside and clearing my mind. And  of all nature, I have a special love for dogs. They bring so much joy and comfort, and I find their companionship really uplifting.
+</p>
+
+<p>
+I’m someone who thinks deeply and enjoys quiet moments, especially when I’m alone or just reflecting on life. I like experiences that make me feel something, whether it’s from a movie, a song, or just being in a peaceful environment.
+</p>
+
+<p>
+One important part of my journey is my mom, who has been supportive in her own way. She helps me stay grounded and keeps encouraging me to keep going even when things are not easy. Having that kind of support means a lot to me.
+</p>
+
+<p>
+Overall, I’m just someone trying to build a meaningful life, grow through my experiences, and become a better version of myself over time.
+</p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills-container">
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Git & GitHub</div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h3>Restaurant Website</h3>
+            <p>Responsive landing page that showcase Nigerian dishes built with HTML & CSS.</p>
+             <a href="https://valentineokedinachi-ux.github.io/mama-put-online/" target="_blank" class="btn">Visit Website</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Travel Website</h3>
+            <p>A landing page for a travel experience platform built to showcase Nigerian destinations.</p>
+            <a href="https://valentineokedinachi-ux.github.io/wander-niger.com/" target="_blank" class="btn">Visit Website</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Movie Streaming Website</h3>
+            <p>A responsive multi-page website for a movie streaming service built with HTML & CSS.</p>
+            <a href="https://valentineokedinachi-ux.github.io/cinema-universe-project/" target="_blank" class="btn">Visit Website</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Wanna Get In Touch?</h2>
+
+    <form>
+        <input type="text" placeholder="Enter your name here" required>
+        <input type="email" placeholder="Enter your email here" required>
+        <textarea placeholder="Send me a feedback here" rows="6" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <h3 class="footer-title">Let’s connect</h3>
+
+    <p class="footer-text">
+        Feel free to reach out or connect with me on social media.
+    </p>
+
+    <div class="socials">
+        <a href="https://wa.me/2348069160477" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+
+        <a href="https://www.linkedin.com/in/okedinachi-valentine-2b42643aa?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+        <a href="https://www.instagram.com/okedinachivalentine?igsh=aHp0bjZyMmwwcHRw" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+
+        <a href="https://www.tiktok.com/@bossy.val?_r=1&_t=ZS-974wNwxDt1c" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+
+        <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+
+    <p class="copyright">
+        &copy; 2026 Valentine. Built with focus and consistency.
+    </p>
+</footer>
 
 </body>
+</html>
