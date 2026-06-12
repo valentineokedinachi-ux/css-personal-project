@@ -337,6 +337,6 @@ button {
     }
 
     .hero{
-        background-size: contain;
+        background-size: cover;
     }
 }
